@@ -1,0 +1,59 @@
+#main-app-container{
+    display: flex;
+}
+
+#game-area {
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    height: 500px;
+    position: relative;
+    width: 500px;
+    display: flexbox;
+    float: left;
+}
+
+
+
+.personaje {
+    position: absolute;
+}
+
+#player {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+}
+
+#beyonce {
+    width: 40px;
+    height: 40px;
+    background-image: url('beyonce.jpg');
+    background-size: cover;
+}
+
+.settings-container{
+    margin-left: 5px;
+    width: 350px;
+    float: right;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+
+.settings label{
+    display: block;
+    margin: 10px;
+}
+
+.settings input{
+    margin-left: 10px;
+}
+.settings input[type=number]{
+    width: 60px;
+}
+
+.settings p {
+    display: inline-block;
+    margin-left: 10px;
+}
